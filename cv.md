@@ -47,3 +47,25 @@ function numberToRomeNumber(number) {
 ```
 
 ---
+
+## Experience
+| Work                |            Position            |  Experience |
+|---------------------|:------------------------------:|------------:|
+| YouTube             |            Blogger             | 2013 - 2017 |
+| BNTU                |            Student             | 2014 - 2018 |
+| My business         | Electronics & diagnostics cars | 2018 - 2021 |
+| Nuclear Power Plant |            Engineer            |  2018 - now |
+
+---
+
+## Courses
+* HTML&CSS [Stepik](https://stepik.org/)
+* JavaScript for beginner [Stepik](https://stepik.org/)
+* JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
+---
+
+## Languages
+* English - Pre-Intermediate
+* Russian - Native
