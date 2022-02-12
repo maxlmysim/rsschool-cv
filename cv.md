@@ -26,3 +26,24 @@ I graduated from the Belarusian National Technical University with a degree in N
 * Git, GitHub
 
 ---
+
+## Code Example
+```
+function numberToRomeNumber(number) {
+    let hundreds = ['C', 'CC', 'CCC', 'CD', 'D', 'DC', 'DCC', 'DCCC', 'CM'];
+    let tens = ['X', 'XX', 'XXX', 'XL', 'L', 'LX', 'LXX', 'LXXX', 'XC'];
+    let units = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX'];
+    let result = '';
+    let digits = number.toString().split('').map(Number).reverse().forEach((digit, index) => {
+        if (digit !== 0) {
+            if (index === 0) result = units[digit - 1] + result;
+            if (index === 1) result = tens[digit - 1] + result;
+            if (index === 2) result = hundreds[digit - 1] + result;
+            if (index === 3) result = 'M'.repeat(digit) + result;
+        }
+    });
+    return result;
+};
+```
+
+---
