@@ -1,5 +1,6 @@
 html {
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 *, *:before, *:after {
@@ -26,8 +27,9 @@ a {
 }
 
 .nav__item a {
-    font-size: 16px;
+    font-size: 18px;
     padding: 14px 10px;
+    color: #000;
 }
 
 .nav__item a:hover {
@@ -145,12 +147,30 @@ a {
     text-align: justify;
 }
 
+/*skills*/
+
 .skills__list {
     list-style: disc;
     padding-left: 15px;
 }
 
 .skill__item {
+    margin-bottom: 5px;
+}
+
+/*code example*/
+
+
+/*my project*/
+
+/*languages*/
+
+.languages__list {
+    list-style: disc;
+    padding-left: 15px;
+}
+
+.language__item {
     margin-bottom: 5px;
 }
 
