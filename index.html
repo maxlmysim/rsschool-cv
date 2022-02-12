@@ -131,10 +131,38 @@
             </div>
         </section>
         <section class="right-side__code-example" id="code-example">
-                <div class="code-example-container">
-                    <h2 class="section-title">Code Example</h2>
-                    <div class="wrapper">
-                    </div>
+            <div class="code-example-container">
+                <h2 class="section-title">Code Example</h2>
+                <div class="wrapper">
+                    <details class="code-example__details">
+                        <summary>Code example</summary>
+                        <pre class="code"><span
+                            class="code-function"><span
+                            class="code-keyword">function</span> <span class="code-title">isPrime</span>(<span
+                            class="code-params">num</span>) </span>{
+  <span class="code-keyword">if</span> (num === <span class="code-number">2</span> || num === <span
+                                class="code-number">3</span>) <span class="code-keyword">return</span> <span
+                                class="code-literal">true</span>
+  <span class="code-keyword">if</span> (num &lt; <span class="code-number">2</span> || num % <span
+                                class="code-number">2</span> === <span class="code-number">0</span> || num % <span
+                                class="code-number">3</span> === <span class="code-number">0</span>) <span
+                                class="code-keyword">return</span> <span class="code-literal">false</span>;
+  <span class="code-keyword">for</span> (<span class="code-keyword">let</span> i = <span class="code-number">1</span>; i &lt;= <span
+                                class="code-built_in">Math</span>.sqrt(num); i++) {
+    <span class="code-keyword">if</span> (num % (<span class="code-number">6</span> * i + <span class="code-number">1</span>) === <span
+                                class="code-number">0</span> &amp;&amp; (num !== (<span class="code-number">6</span> * i + <span
+                                class="code-number">1</span>))) <span class="code-keyword">return</span> <span
+                                class="code-literal">false</span>;
+    <span class="code-keyword">if</span> (num % (<span class="code-number">6</span> * i - <span class="code-number">1</span>) === <span
+                                class="code-number">0</span> &amp;&amp; (num !== (<span class="code-number">6</span> * i - <span
+                                class="code-number">1</span>))) <span class="code-keyword">return</span> <span
+                                class="code-literal">false</span>;
+    }
+  <span class="code-keyword">return</span> <span class="code-literal">true</span>;
+}</pre>
+                    </details>
+
+                </div>
             </div>
         </section>
         <section class="right-side__my-projects" id="my-projects">

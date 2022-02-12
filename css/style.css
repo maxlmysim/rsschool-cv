@@ -159,6 +159,74 @@ a {
 }
 
 /*code example*/
+.code-example__details {
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
+
+}
+
+.code-example__details:hover {
+    text-decoration: none;
+}
+
+.code-example__details[open] summary {
+    margin-bottom: 10px;
+}
+
+.code {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    background: #23241f;
+    max-width: max-content;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.code, .code-tag, .code-subst {
+    color: #f8f8f2;
+}
+
+.code-strong, .code-emphasis {
+    color: #a8a8a2;
+}
+
+.code-bullet, .code-quote, .code-number, .code-regexp, .code-literal, .code-link {
+    color: #ae81ff;
+}
+
+.code-code, .code-title, .code-section, .code-selector-class {
+    color: #a6e22e;
+}
+
+.code-strong {
+    font-weight: bold;
+}
+
+.code-emphasis {
+    font-style: italic;
+}
+
+.code-keyword, .code-selector-tag, .code-name, .code-attr {
+    color: #f92672;
+}
+
+.code-symbol, .code-attribute {
+    color: #66d9ef;
+}
+
+.code-params, .code-class .code-title {
+    color: #f8f8f2;
+}
+
+.code-string, .code-type, .code-built_in, .code-builtin-name, .code-selector-id, .code-selector-attr, .code-selector-pseudo, .code-addition, .code-variable, .code-template-variable {
+    color: #e6db74;
+}
+
+.code-comment, .code-deletion, .code-meta {
+    color: #75715e;
+}
 
 
 /*my project*/
