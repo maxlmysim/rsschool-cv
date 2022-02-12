@@ -1,0 +1,163 @@
+html {
+    /*box-sizing: border-box;*/
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+a {
+    transition: all 0.3s ease 0s;
+}
+
+.wrapper {
+    margin: 25px 10px 25px 30px ;
+}
+
+/*header styles start*/
+
+.nav__items {
+    background: #e6e6e6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+.nav__item a {
+    font-size: 16px;
+    padding: 14px 10px;
+}
+
+.nav__item a:hover {
+    background-color: #daa520;
+    color: #fff;
+    text-decoration: none;
+}
+
+/*header styles end*/
+
+.section-title {
+    background-color: #b2a9a9;
+    border-left: 10px solid goldenrod;
+    padding-left: 7px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #343945;
+}
+
+/* main styles start*/
+
+.main {
+    display: flex;
+}
+
+/*left side start*/
+
+.main__left-side {
+    background-color: rgba(37, 38, 47, 0.73);
+    color: #fff;
+}
+
+/* avatar styles*/
+
+.left-side__avatar {
+    width: 256px;
+    height: 242px;
+}
+
+/*contacts styles*/
+.contacts-item {
+    margin: 10px 0;
+}
+
+.contact-item__img {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px 0 10px
+}
+
+.contact-item {
+    color: #fff;
+}
+
+.contact-item:hover {
+    text-decoration: none;
+}
+
+/*education styles*/
+
+.education__item {
+    border-bottom: 2px solid #fff;
+}
+
+.education__item:last-child{
+    border-bottom: none;
+}
+
+.education__item-date {
+    background-color: gold;
+    display: inline-block;
+    margin: 8px;
+    padding: 5px;
+    border-radius: 5px;
+    color: #000;
+}
+
+.education__item-course{
+    width: 95%;
+    margin: 0 auto 8px auto;
+}
+
+.education__profession {
+    font-style: italic;
+    font-weight: 600;
+    color: #daa520;
+}
+/*left side end*/
+
+/*right side start*/
+
+/*page title*/
+
+.page-title-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+}
+
+.page-title__main {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.page-title__subtitle {
+    font-size: 20px;
+}
+
+/*about me*/
+
+.about-me__text {
+    text-indent: 30px;
+    text-align: justify;
+}
+
+.skills__list {
+    list-style: disc;
+    padding-left: 15px;
+}
+
+.skill__item {
+    margin-bottom: 5px;
+}
+
+
+/*right side end*/
+
+
+
+/* main styles end*/
+
