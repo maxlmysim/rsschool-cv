@@ -67,10 +67,15 @@ a {
 }
 
 /* avatar styles*/
-
-.left-side__avatar {
+.left-side__avatar-block {
     width: 256px;
     height: 242px;
+}
+
+.left-side__avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /*contacts styles*/
