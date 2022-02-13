@@ -6,9 +6,9 @@
 * Location: Minsk and Ostrovec, Belarus
 * phone: +375339002508
 * email: maxlmysim@gmail.com
+* Github: [maxlmysim](https://github.com/maxlmysim)
 * Instagram: [maxlmysim](https://www.instagram.com/maxlmysim/)
 * Telegram: [maxlmysim](https://t.me/maxlmysim)
-* Github: [maxlmysim](https://github.com/maxlmysim)
 * Discord: *maxlmysim#6640*
 
 ---
@@ -24,6 +24,7 @@ I graduated from the Belarusian National Technical University with a degree in N
 * C++ (Basic)
 * VSCode, WebStorm
 * Git, GitHub
+* Engineering
 
 ---
 
