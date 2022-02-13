@@ -7,6 +7,10 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 a {
     transition: all 0.3s ease 0s;
@@ -278,7 +282,7 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 0;
-
+    filter: invert(100%)
 }
 
 .github__link:hover {
@@ -287,6 +291,7 @@ a {
 
 .rsschool__logo {
     height: 45px;
+    filter: invert(100%)
 }
 
 /*footer styles end*/
