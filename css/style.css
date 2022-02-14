@@ -74,6 +74,14 @@ a,
     cursor: pointer;
 }
 
+.hamburger:hover .hamburger_line:nth-child(1){
+    transform: rotate(5deg);
+}
+
+.hamburger:hover .hamburger_line:nth-child(3){
+    transform: rotate(-5deg);
+}
+
 .hamburger.open {
     transition-delay: 0.6s;
     transform: rotate(45deg);
@@ -96,7 +104,15 @@ a,
     transform: translateY(-13px) rotate(90deg);
 }
 
-/*header styles end*/
+.hamburger.open:hover .hamburger_line:nth-child(1) {
+    transform: translateY(10px) rotate(-10deg)
+}
+
+.hamburger.open:hover .hamburger_line:nth-child(3) {
+    transform: translateY(-13px) rotate(100deg)
+}
+
+    /*header styles end*/
 
 .section-title {
     background-color: #b2a9a9;
