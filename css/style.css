@@ -200,6 +200,11 @@ a,
     color: #daa520;
 }
 
+.education__status {
+    font-style: italic;
+    color: #b6aaaa;
+}
+
 /*left side end*/
 
 /*right side start*/
