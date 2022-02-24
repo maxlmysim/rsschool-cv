@@ -242,6 +242,7 @@ a,
 .about-me__text {
     text-indent: 30px;
     text-align: justify;
+    line-height: 25px;
 }
 
 /*skills*/
