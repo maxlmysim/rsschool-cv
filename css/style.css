@@ -257,6 +257,7 @@ a,
 }
 
 /*code example*/
+
 .code-example__details {
     cursor: pointer;
     text-decoration: underline;
@@ -497,7 +498,6 @@ a,
         display: block;
         font-size: 25px;
         width: 100%;
-
     }
 
     .burger {
